@@ -1,3 +1,7 @@
+html
+{
+    font-size: 70%;
+}
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -5,9 +9,9 @@ body
 
 #bloc_page
 {
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1440px;
+    margin-left: 7%;
+    margin-right: 5%;
 }
 #reservia
 {
@@ -16,16 +20,7 @@ body
     margin-top: 1.4rem;
     margin-left: 4rem;
 }
-#h1
-{
-    font-size: 1.5rem;
-    font-family: 'Raleway', sans-serif;
-}
-#soustitre
-{
-    font-size: 1.1rem;
-    line-height: 1.8rem;
-}
+
 #entete
 {
     display: flex;
@@ -39,7 +34,7 @@ nav
 nav :hover
 {
     color: #0065FC;
-    border: solid 3px;
+    border: solid 2px;
     border-bottom: hidden;
     border-left: hidden;
     border-right: hidden;
@@ -48,7 +43,7 @@ nav :hover
 
 #menu1
 {
-    margin-left: 51rem;
+    margin-left: 47rem;
     padding-top: 2.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -56,7 +51,7 @@ nav :hover
 }
 #menu2
 {
-    margin-left: 1.7rem;
+    margin-left: 1.4rem;
     padding-top: 2.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -66,7 +61,7 @@ nav :hover
 {
     margin-right: 1rem;
     margin-top: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 2.8rem;
     font-size: 1.3rem;
 }
 .bleu
@@ -75,9 +70,17 @@ nav :hover
 }
 #h1
 {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
     margin-left: 4rem; 
     line-height: 0.3rem;
 }
+#soustitre
+{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
 #soustitre
 {
     margin-left: 4rem; 
@@ -118,7 +121,7 @@ nav :hover
 input[type=search]
 {
     border: 0;
-    font-size: 1.07rem;
+    font-size: 1.1rem;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     outline: none;
@@ -130,7 +133,9 @@ a.button
     border-top-right-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     height: 3.7rem;
-    width: 7rem;
+    width: 9rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
     color: white;
     background-color: #0065FC;
     display: flex;
@@ -138,6 +143,11 @@ a.button
     justify-content: center;  
     list-style-type: none;  
 }
+.fa-search
+{
+  display: none;  
+}
+
 #filtre
 {
     display: flex;
@@ -153,42 +163,42 @@ a.button
 
 #filtre_1
 {
-    border: 3px #F3F2F3 solid;
-    height: 3.2rem;
+    border: 2px #F3F2F3 solid;
+    height: 3.3rem;
     border-radius: 4rem;
     display: flex; 
     margin-left: 2rem;
-    font-size: 1.07rem;
+    font-size: 1rem;
 }
 
 #filtre_2
 {
-    border: 3px #F3F2F3 solid;
-    height: 3.2rem;
+    border: 2px #F3F2F3 solid;
+    height: 3.3rem;
     border-radius: 2rem;
     display: flex;
     margin-left: 1.6rem; 
-    font-size: 1.07rem; 
+    font-size: 1rem; 
 }
 
 #filtre_3
 {
-    border: 3px #F3F2F3 solid;
-    height: 3.2rem;
+    border: 2px #F3F2F3 solid;
+    height: 3.3rem;
     border-radius: 2rem;
     display: flex; 
     margin-left: 1.6rem; 
-    font-size: 1.07rem;   
+    font-size: 1rem;   
 }
 
 #filtre_4
 {
-    border: 3px #F3F2F3 solid;
-    height: 3.2rem;
+    border: 2px #F3F2F3 solid;
+    height: 3.3rem;
     border-radius: 2rem;
     display: flex; 
     margin-left: 1.6rem;   
-    font-size: 1.07rem;  
+    font-size: 1rem;  
 }
 
 #filtre_recherche :hover
@@ -196,7 +206,7 @@ a.button
     color: #0065FC;
     background-color: #DEECFF;
     transition: all; 
-    border-radius: 9rem;   
+    border-radius: 2rem
 }
 
 #filtre_recherche
@@ -227,8 +237,8 @@ a
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 9rem;
-    height: 3.2rem;
-    width: 3.2rem;
+    height: 3.3rem;
+    width: 3.3rem;
 }
 
 #logoFiltreText1
@@ -261,13 +271,17 @@ a
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
 }
+.fa-info
+{
+    font-size: smaller;
+}
 #info
 {
     color:#0065FC;
-    border: solid 2px #F2F2F2;
+    border: solid 1px #F2F2F2;
     border-radius: 100%;
-    height: 1.2rem;
-    width: 1.3rem;
+    height: 1.6rem;
+    width: 1.6rem;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -283,7 +297,7 @@ a
 {
     border-radius: 1.2rem;
     background-color: #F3F2F3;
-    width: 65rem;
+    max-width: 56.5rem;
     margin-right: 3rem;
 }
 .hebergementMarseille
@@ -309,6 +323,7 @@ a
     margin-top: 1.1rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
+    font-size: 0.95rem;
 }
 .chambre:hover
 {
@@ -328,9 +343,9 @@ a
 }
 #desc 
 {
-line-height: 0.3rem;
-margin-left: 1.3rem;
-margin-top: -0.4rem;
+    line-height: 0.4rem;
+    margin-left: 1.1rem;
+    margin-top: -0.4rem;
 }
 .fa-star
 {
@@ -346,14 +361,15 @@ margin-top: -0.4rem;
 #afficherplus
 {
     margin-left: 3.7rem;
+    margin-top: 2rem;
 }
 
 #aside
 {
     border-radius: 1.2rem;
     background-color: #F2F2F2;
-    width: 33rem;
-    height: 41rem;
+    min-width: 28.5rem;
+    height: 42rem;
     margin-right: 2rem;
 }
 #asideTitre
@@ -366,7 +382,7 @@ margin-top: -0.4rem;
 }
 .fa-chart-line
 {
-    margin-left: 10rem;
+    margin-left: 8rem;
     font-size: 1.7rem;
 }
 #hebergementPopulaire
@@ -378,7 +394,7 @@ margin-top: -0.4rem;
 .chambrePop
 {
     background-color: white;
-    height: 9rem;
+    height: 9.5rem;
     width: 23rem;
     border-radius: 1.5rem;
     box-shadow: 0px 0px 12px 0px #d2cccc;
@@ -393,8 +409,8 @@ margin-top: -0.4rem;
 
 .hebergementPopulaireImg
 {
-    width: 140px;
-    height: 132px; 
+    width: 8.75rem;
+    height: 8.7rem; 
     float: left;
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
@@ -402,11 +418,16 @@ margin-top: -0.4rem;
     margin-top: 0.34rem;
     object-fit: cover;
 }
+.hebergementPopulaireTitre
+{
+    line-height: normal;
+    font-size: 1.11rem;
+}
 .chambrePopDesc
 {
     margin-left: 10.5rem;
-    line-height: 1.1;
-    font-size: 16px;
+    line-height: 1.1rem;
+    font-size: 1rem;
 }
 
 .hebergementPopulaireDesc
@@ -415,7 +436,7 @@ margin-top: -0.4rem;
 }
 .hebergementPopulaireNote
 {
-line-height: 4.2rem;
+line-height: 4rem;
 }
 
 #article2
@@ -598,21 +619,21 @@ line-height: 4.2rem;
 {
     background-color: #F3F2F3; 
     display: flex;
-    align-content: flex-start;
+    flex-wrap: wrap;
     margin-top: 5rem;
-    width: 96rem;
-    height: 14rem;
+    max-width: 96rem;
+    min-height: 14rem;
 }
 .a_propos
 {
-    margin-right: 18rem;
+    margin-right: 15rem;
     margin-left: 4rem;
     margin-top: 1.5rem;
     line-height: 2rem;
 }
 .nos_hebergement
 {
-    margin-right: 20rem;
+    margin-right: 18rem;
     margin-top: 1.5rem;
     line-height: 2rem;
 }
@@ -620,5 +641,9 @@ line-height: 4.2rem;
 {
     margin-top: 1.5rem;
     line-height: 2rem;
+}
+.liste
+{
+    font-size: 1.1rem;
 }
 

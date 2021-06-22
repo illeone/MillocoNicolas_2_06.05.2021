@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 980px)" href="petite_resolution.css" />
     <script src="https://kit.fontawesome.com/e81fede9df.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
   </head>
@@ -23,7 +24,7 @@
                                 <a href ="#section1">Hébergements</a>
                             </div>
                             <div id="menu2">
-                                <a href ="#article2">Activités</a>
+                                <a href ="#section2">Activités</a>
                             </div>
                         </nav>
                     </div>
@@ -34,7 +35,7 @@
                
                 <div id="recherche">
                     <div id="description">
-                        <h1 id="h1">Trouvez votre hébergement pour des vacances de rêves</h1>
+                        <h1 id="h1">Trouvez votre hébergement pour des vacances de rêve</h1>
                         <p id="soustitre">En plein centre ville ou en pleine nature</p>
                     </div>
                     <div id="outil_recherche">
@@ -44,7 +45,7 @@
                         <div id="rechercheVille">
                             <input type="search" placeholder="Marseille, France">
                         </div>
-                        <a href="#" class="button">Rechercher</a>
+                        <a href="#" class="button"><span id="rechercher">Rechercher</span><i class="fas fa-search"></i></a>
                     </div>
 
                     <div id="filtre">
@@ -101,7 +102,9 @@
                         <div id="info">
                             <i class="fas fa-info"></i>
                         </div>
+                        <div id="infoText">
                         <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -310,11 +313,11 @@
             </section>            
 
             <section>
-                <article id="article2">
+                <article id="section2">
                     <h2 id="activitetitre">Activités à Marseille</h2>
                     <div id="activiteMarseille">
                         <div class="activiteMarseilleBloc1">
-                            <a href="#article2">
+                            <a href="#section2">
                                 <img 
                                 class="activiteMarseilleImg1"
                                 src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
@@ -325,7 +328,7 @@
                         </div>
                         <div id="paire1">
                             <div class="activiteMarseilleBloc2">
-                                <a href="#article2">
+                                <a href="#section2">
                                     <img 
                                     class="activiteMarseilleImg2"
                                     src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
@@ -335,7 +338,7 @@
                                  </a>
                             </div>
                             <div class="activiteMarseilleBloc3">
-                                 <a href="#article2">
+                                 <a href="#section2">
                                     <img 
                                     class="activiteMarseilleImg3"
                                     src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
@@ -346,7 +349,7 @@
                             </div>
                         </div>
                         <div class="activiteMarseilleBloc4">
-                            <a href="#article2">
+                            <a href="#section2">
                                 <img 
                                 class="activiteMarseilleImg4"
                                 src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
@@ -357,7 +360,7 @@
                         </div>
                         <div id="paire2">
                             <div class="activiteMarseilleBloc5">
-                            <a href="#article2">
+                            <a href="#section2">
                                     <img 
                                     class="activiteMarseilleImg5"
                                     src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
@@ -367,7 +370,7 @@
                                 </a>
                             </div>
                             <div class="activiteMarseilleBloc6">
-                                <a href="#article2">
+                                <a href="#section2">
                                     <img 
                                     class="activiteMarseilleImg6"
                                     src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
@@ -388,8 +391,7 @@
                         <a href ="#">Fonctionnement du site</a></br>
                         <a href ="#">Conditions générales de vente</a></br>
                         <a href ="#">Données et confidentialité</a>
-                    </div>
-                        
+                    </div>                    
                 </div>
                 <div class="nos_hebergement">
                     <h3>Nos hébergements</h3>
