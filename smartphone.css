@@ -5,17 +5,11 @@
     margin-right: auto;
 }
 
-header
-{
-    margin-left: ;
-}
-
 #entete
 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding-bottom: 1rem;
-    border-width: 50%;
 }
 
 #titreLogo
@@ -37,7 +31,6 @@ header
     grid-column: 1 / 5;
     margin-top: 1rem;
     margin-bottom: -0.64rem;
-    padding-bottom: ;
     padding-top: 1rem;
     border-bottom:#F2F2F2 solid 4px;
 }
@@ -70,7 +63,7 @@ header
 }
 #menu2 :hover
 {
-    border-block-end:#0065FC solid 2px;
+    border-bottom:#0065FC solid 2px;
     border-top: none;
     padding-left: 40%;
     padding-right: 60%;
@@ -92,13 +85,11 @@ header
     line-height: initial;
     min-width: 50%;
     display: flex; 
-    justify-content: none;
     margin-left: 1rem;
 }
 #soustitre
 {
     display: flex; 
-    justify-content: none;
     margin-bottom: 3rem;
     margin-left: 1rem;
 
@@ -106,7 +97,6 @@ header
 #outil_recherche
 {
     display: flex; 
-    justify-content: none;
     margin-left: 1rem;
 }
 #logoPosition
@@ -152,7 +142,6 @@ a.button
 }
 #filtreTitre
 {
-    justify-content: none;
     margin-top: 2rem;
     margin-left: 1rem;
 }
@@ -214,10 +203,6 @@ a.button
 {
     display: flex;
     flex-direction: column-reverse;
-}
-#asideTitre
-{
-    margin-left: %;
 }
 .fa-chart-line
 {
@@ -321,10 +306,6 @@ a.button
 .hebergementMarseilleNom
 {
     height: 0.6rem;
-}
-.hebergementMarseilleDesc
-{
-    height: ;
 }
 .hebergementMarseilleNote
 {

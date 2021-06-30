@@ -63,7 +63,7 @@
 }
 #menu2 :hover
 {
-    border-block-end:#0065FC solid 3px;
+    border-bottom:#0065FC solid 3px;
     border-top: none;
     margin-bottom:-3rem;
     padding-left: 50%;
@@ -277,7 +277,6 @@ a.button
     width: 40%;
     height: 14rem;
     display: flex;
-    flex-direction: ;
     justify-content: center;
 
 }
@@ -294,7 +293,6 @@ a.button
 {
     margin-left: 6%;
     margin-top: -1rem;
-    font-size: auto;
 }
 .hebergementMarseilleDesc
 {
@@ -337,10 +335,7 @@ a.button
     flex-direction: row;
     justify-items: center;
 }
-#activitetitre
-{
-    margin-left: %; 
-}
+
 .activiteMarseilleBloc1 , .activiteMarseilleBloc2 , .activiteMarseilleBloc3 , .activiteMarseilleBloc4 , .activiteMarseilleBloc5 , .activiteMarseilleBloc6
 {
     width: 40%;
@@ -429,7 +424,7 @@ a.button
     margin-right: 0;
     margin-left: 0%;
     display: flex;
-    flex-wrap: none;
+    flex-wrap:nowrap;
     flex-direction: row;
 }
 .a_propos , .nos_hebergement , .assistance
