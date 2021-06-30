@@ -208,7 +208,6 @@ a.button :hover
     background-color: #DEECFF;
     transition: all; 
     border-radius: 4rem;
-    height: 75%;
     transition: 0.3s;
 }
 
