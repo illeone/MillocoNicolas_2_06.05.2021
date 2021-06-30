@@ -5,7 +5,7 @@
 }
 header
 {
-    margin-left: 1rem;
+    margin-left: ;
 }
 #entete
 {
@@ -22,6 +22,9 @@ header
 #reservia
 {
     order:1;
+    margin-left: 1rem;
+    width: 100px;
+    height: 50px;
 }
 .menu
 {   
@@ -29,10 +32,10 @@ header
     order: 3;
     grid-column: 1 / 5;
     margin-top: 1rem;
-    margin-bottom: 0.4rem;
-    padding-bottom: 1rem;
+    margin-bottom: -0.64rem;
+    padding-bottom: ;
     padding-top: 1rem;
-    border-bottom:#F2F2F2 solid 2px;
+    border-bottom:#F2F2F2 solid 4px;
 }
 
 #menu1
@@ -53,21 +56,21 @@ header
 
 #menu1 :hover
 {
-    border-bottom:#0065FC solid 3px;
+    border-bottom:#0065FC solid 2px;
     border-top: none;
-    margin-bottom:-3rem;
-    padding-right: 6rem;
-    padding-left: 6rem;
+    padding-left: 35%;
+    padding-right: 80%;
+    margin-bottom:-1rem;
     padding-bottom: 2rem;
     transition: 0.5s;
 }
 #menu2 :hover
 {
-    border-block-end:#0065FC solid 3px;
+    border-block-end:#0065FC solid 2px;
     border-top: none;
-    margin-bottom:-3rem;
-    padding-right: 7rem;
-    padding-left: 7rem;
+    padding-left: 40%;
+    padding-right: 60%;
+    margin-bottom:-1rem;
     padding-bottom: 2rem;
     transition: 0.5s;
 }
@@ -86,18 +89,21 @@ header
     min-width: 50%;
     display: flex; 
     justify-content: none;
+    margin-left: 1rem;
 }
 #soustitre
 {
     display: flex; 
     justify-content: none;
     margin-bottom: 3rem;
+    margin-left: 1rem;
 
 }
 #outil_recherche
 {
     display: flex; 
     justify-content: none;
+    margin-left: 1rem;
 }
 #logoPosition
 {
@@ -106,8 +112,7 @@ header
 }
 #rechercheVille
 {
-    width: 50%;
-    min-width: 14rem;
+    min-width: 60%;
 }
 #logoPosition
 {
@@ -145,6 +150,7 @@ a.button
 {
     justify-content: none;
     margin-top: 2rem;
+    margin-left: 1rem;
 }
 #filtre_recherche
 {
@@ -153,27 +159,29 @@ a.button
     flex-wrap: wrap;
     align-content: flex-start;
     width: auto;
-    margin: 0%;
 }
 #filtre_1
 {
     max-width: min-content;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-right: 1rem;
+    margin-left: 1rem;
 }
 #filtre_2
 {
     margin: 0%;
     max-width: min-content;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.6rem;
+    margin-left: 0rem;
 }
 #filtre_3
 {
     margin: 0%;
     max-width: min-content;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-right: 1rem;
+    margin-left: 1rem;
 }
 #filtre_4
 {
@@ -181,6 +189,7 @@ a.button
     max-width: min-content;
     margin-bottom: 1rem;
     margin-right: 1rem;
+    margin-left: 1rem;
 }
 #information
 {
@@ -189,13 +198,14 @@ a.button
 }
 #info
 {
-    width: 2rem;
+    width: 1.7rem;
     display: flex;
     margin-bottom: 1.25em;
+    margin-left: 1rem;
 }
 #infoText
 {
-    width: none;
+    width: 90%;
 }
 #section1
 {
@@ -287,7 +297,7 @@ a.button
 }
 .chambre
 {
-    width: 90%;
+    width: 93%;
     height: 12rem;
     margin-bottom: 1rem;
     display: flex;
@@ -333,6 +343,8 @@ a.button
 {
     width: 100%;
     margin-bottom: 5%;
+    margin-left: 0%; 
+    margin-right: 0%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -340,17 +352,25 @@ a.button
     justify-items: center;
     justify-content: center;
 }
+#activiteMarseille
+{
+    margin-left: 5%; 
+    margin-right: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
 #activitetitre
 {
-    margin-left: 8%; 
+    margin-left: 5%; 
 }
 .activiteMarseilleBloc1 , .activiteMarseilleBloc2 , .activiteMarseilleBloc3 , .activiteMarseilleBloc4 , .activiteMarseilleBloc5 , .activiteMarseilleBloc6
 {
-    width: 85%;
+    width: 95%;
     height: 12rem;
-    margin-left: 7%;
     margin-bottom: 1rem;
     background-color: white;
+    margin-left: 0%; 
 }
 .activiteMarseilleBloc2
 {
@@ -361,15 +381,10 @@ a.button
     margin-bottom: -1rem;
 }
 
-#activiteMarseille
-{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
 #paire1
 {
     width: 100%;
+    margin-right: 0%;
     display: flex;
     justify-content: center;
     flex-direction:column ;
@@ -377,6 +392,7 @@ a.button
 #paire2
 {
     width: 100%;
+    margin-right: 0%;
     display: flex;
     flex-direction:column; 
 }
@@ -405,10 +421,13 @@ a.button
     max-width: 1015px;
     margin-right: 0;
     margin-left: 0%;
+    flex-direction: column;
 }
 .a_propos , .nos_hebergement , .assistance
 {
+    
     margin-left: 9%;
+    margin-bottom: 1rem;
     min-width: 9rem;
     line-height: 2rem;
 }

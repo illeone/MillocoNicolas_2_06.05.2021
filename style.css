@@ -182,6 +182,7 @@ a.button :hover
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: 0.8rem;
     width: 90%;
 }
 
@@ -207,6 +208,7 @@ a.button :hover
     background-color: #DEECFF;
     transition: all; 
     border-radius: 4rem;
+    height: 75%;
     transition: 0.3s;
 }
 
@@ -237,10 +239,12 @@ a.button :hover
 .filtreDesc
 {
     border: 3px #F3F2F3 solid;
-    border-radius: 3rem; 
+    height: 75%;
+    border-radius: 3rem;
     display: flex;
     align-items: center;
     list-style-type: none;
+    transition: 0.5s;
 }
 
 .logoFiltre
@@ -249,32 +253,33 @@ a.button :hover
     align-items: center;
     justify-content: center;
     color: #0065FC;
+    margin-left: -0.5rem;
     background-color: #DEEBFF;
     border-radius: 100%;
-    height: 60px;
-    width: 60px;
+    height: 53px;
+    width: 53px;
     font-size: 1.3rem;
 }
 
 #logoFiltreText1
 {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-right: 1rem;
 }
 
 #logoFiltreText2
 {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-right: 1rem;
 }
 #logoFiltreText3
 {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-right: 1rem;
 }
 #logoFiltreText4
 {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-right: 1rem;
 }
 #information
@@ -451,6 +456,12 @@ a.button :hover
 {
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    margin-left: 2rem;
+}
+#activitetitre
+{
+    margin-left: 2rem;
 }
 #paire1
 {
@@ -607,7 +618,7 @@ a.button :hover
 }
 .activiteMarseilleDesc
 {
-    margin-left: 1.5rem;
+    margin-left: 0.8rem;
 }
 
 #footer
