@@ -301,7 +301,7 @@ a.button
 .chambre
 {
     width: 93%;
-    height: 12rem;
+    height: 13rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -310,17 +310,26 @@ a.button
 }
 .hebergementMarseilleImg
 {
-    width: 96%;
-    height: 7rem;
-    margin-top: 0.3rem;
+    width: 97%;
+    height: 7.8rem;
+    object-fit: cover;
 }
 #desc 
 {
     margin-left: 6%;
-    margin-top: -0.5rem;
-    line-height: 0rem;
 }
-
+.hebergementMarseilleNom
+{
+    height: 0.6rem;
+}
+.hebergementMarseilleDesc
+{
+    height: ;
+}
+.hebergementMarseilleNote
+{
+    margin-top: -0.3rem;
+}
 .fa-star
 {
     color: #0065FC;
@@ -328,20 +337,16 @@ a.button
     font-size: 0.8rem;
     padding-bottom: 0.5rem;
 }
-
-#etoilegrise
+.couleurEtoile
 {
     color: rgb(217, 217, 217);
 }
 #afficherplus
 {
-    margin-left: 3%;
+    margin-left: 6%;
     margin-bottom: 4%;
 }
-#afficherplus
-{
-    margin-left: 9%;
-}
+
 #section2
 {
     width: 100%;

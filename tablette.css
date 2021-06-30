@@ -308,20 +308,16 @@ a.button
     padding-bottom: 0.5rem;
 
 }
-
-#etoilegrise
+.couleurEtoile
 {
     color: rgb(217, 217, 217);
 }
 #afficherplus
 {
-    margin-left: 3%;
+    margin-left: 7%;
     margin-bottom: 4%;
 }
-#afficherplus
-{
-    margin-left: 9%;
-}
+
 #section2
 {
     margin-bottom: 5%;

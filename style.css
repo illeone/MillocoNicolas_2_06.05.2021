@@ -93,7 +93,7 @@ a
 {
     color: #0065FC;
 }
-#h1
+h1
 {
     font-size: 150%;
     font-family: 'Raleway', sans-serif;
@@ -319,6 +319,7 @@ a.button :hover
 {
     margin-left: 3%;
     margin-top: 4%;
+    font-size: 1.3rem;
 }
 #hebergement
 {
@@ -362,7 +363,7 @@ a.button :hover
     object-fit: cover;
 
 }
-#desc 
+.desc 
 {
     margin-left: 6%;
     margin-top: -5%;
@@ -378,16 +379,14 @@ a.button :hover
     width: 0.7rem;
     font-size: 0.8rem;
     padding-bottom: 0.5rem;
-
 }
-
-#etoilegrise
+.couleurEtoile
 {
     color: rgb(217, 217, 217);
 }
 #afficherplus
 {
-    margin-left: 3%;
+    margin-left: 4%;
     margin-bottom: 4%;
 }
 
@@ -404,10 +403,11 @@ a.button :hover
     justify-content: space-around;
     margin-bottom: 5%;
     margin-top: 4%;
+    font-size: 1.1rem;
 }
 .fa-chart-line
 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 #hebergementPopulaire
 {
@@ -461,6 +461,7 @@ a.button :hover
 #activitetitre
 {
     margin-left: 2rem;
+    font-size: 1.3rem;
 }
 #paire1
 {
@@ -481,12 +482,12 @@ a.button :hover
 }
 .activiteMarseilleImg2:hover
 {
-    transform: scale(1.57);
+    transform: scale(1.6);
     transition: 1s;
 }
 .activiteMarseilleImg3:hover
 {
-    transform: scale(2);
+    transform: scale(2.1);
     transition: 1s;
 }
 .activiteMarseilleImg4:hover
@@ -496,12 +497,12 @@ a.button :hover
 }
 .activiteMarseilleImg5:hover
 {
-    transform: scale(1.88);
+    transform: scale(1.92);
     transition: 1s;
 }
 .activiteMarseilleImg6:hover
 {
-    transform: scale(1.67);
+    transform: scale(1.7);
     transition: 1s;
 }
 
@@ -617,7 +618,7 @@ a.button :hover
 }
 .activiteMarseilleDesc
 {
-    margin-left: 0.8rem;
+    margin-left: 1.5rem;
 }
 
 #footer
