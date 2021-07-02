@@ -210,6 +210,7 @@ a.button
 }  
 #aside
 {
+    border-radius: 0rem;
     width: 100%;
     height: 41rem;
     margin-bottom: 2rem
@@ -267,10 +268,15 @@ a.button
 {
     margin-left: 47%;
 }
+.hebergementPopulaireTitre
+{
+    margin-bottom: -0.5rem;
+}
 .hebergementPopulaireNote
 {
-    line-height: 2rem;
+    line-height: 5rem;
 }
+
 #article1
 {
     width: 100%;

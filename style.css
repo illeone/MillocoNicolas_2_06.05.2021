@@ -449,6 +449,14 @@ a.button :hover
 {
     margin-left: 45%;
 }
+.hebergementPopulaireTitre
+{
+    margin-bottom: -0.5rem;
+}
+.hebergementPopulaireNote
+{
+    line-height: 4rem;
+}
 
 #activiteMarseille
 {
