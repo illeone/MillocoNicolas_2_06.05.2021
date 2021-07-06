@@ -17,12 +17,14 @@
     width: 100%;
 
 }
+
 #reservia
 {
     order:1;
     justify-content: center;
     margin-left: 12%;
 }
+
 .menu
 {   
     display: grid;
@@ -45,6 +47,7 @@
 {
     grid-column: 3/5;
 }
+
 #inscription
 {
     grid-column: 4;
@@ -61,6 +64,7 @@
     padding-bottom: 2rem;
     transition: 0.5s;
 }
+
 #menu2 :hover
 {
     border-bottom:#0065FC solid 3px;
@@ -87,6 +91,7 @@
     display: flex; 
     justify-content: center;
 }
+
 #soustitre
 {
     display: flex; 
@@ -94,35 +99,37 @@
     margin-bottom: 3rem;
 
 }
+
 #outil_recherche
 {
     display: flex; 
     justify-content: center;
 }
+
 #logoPosition
 {
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
 }
+
 #rechercheVille
 {
     width: 20%;
     min-width: 10rem;
 }
+
 #logoPosition
 {
     min-width: 3.7rem;
 
 }
-input[type=search]
-{
-  
-}
+
 .fa-search
 {
     visibility: initial;
     font-size: 1.2rem;
 }
+
 a.button
 {
     border-top-left-radius: 1.2rem;
@@ -132,21 +139,25 @@ a.button
     width: 3.8rem;
     min-width: 3.8rem;
 }
+
 #rechercher
 {
     visibility: hidden;
     position: absolute;
 }
+
 #filtre
 {
     display: block;
 }
+
 #filtreTitre
 {
     margin-left: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
+
 #filtre_recherche
 {
     display: flex;
@@ -155,12 +166,14 @@ a.button
     width: auto;
     margin-left: 1rem;
 }
+
 #filtre_1
 {
     max-width: min-content;
     margin-bottom: 1rem;
     margin-right: 1rem;
 }
+
 #filtre_2
 {
     margin: 0%;
@@ -168,6 +181,7 @@ a.button
     margin-bottom: 1rem;
     margin-right: 1rem;
 }
+
 #filtre_3
 {
     margin: 0%;
@@ -175,6 +189,7 @@ a.button
     margin-bottom: 1rem;
     margin-right: 1rem;
 }
+
 #filtre_4
 {
     margin: 0%;
@@ -182,33 +197,36 @@ a.button
     margin-bottom: 1rem;
     margin-right: 1.5rem;
 }
+
 #information
 {
     display: flex;
     align-items: baseline;
 }
+
 #info
 {
     margin-left: 1.8rem;
     display: flex;
     margin-bottom: 1.25em;
 }
-#infoText
-{
-}
+
 #section1
 {
     display: flex;
     flex-direction: column-reverse;
 }
+
 #asideTitre
 {
     margin-bottom: 0%;
 }
+
 .fa-chart-line
 {
     margin-left: 28%;
 }  
+
 #aside
 {
     border-radius: 0rem;
@@ -216,6 +234,7 @@ a.button
     height: 40rem;
     margin-bottom: 2rem
 }
+
 #hebergementPopulaire
 {  
     display: flex;
@@ -223,6 +242,7 @@ a.button
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .chambrePop
 {
     width: 46%;
@@ -235,6 +255,7 @@ a.button
     box-shadow: 0px 0px 12px 0px #d2cccc;
     transition: 1s;
 }
+
 .chambrePop:hover
 {
     transform: scale(1.05);
@@ -257,14 +278,17 @@ a.button
 {
     margin-left: 48%;
 }
+
 .hebergementPopulaireTitre
 {
     margin-bottom: -0.5rem;
 }
+
 .hebergementPopulaireNote
 {
     line-height: 8rem;
 }
+
 #article1
 {
     width: 100%;
@@ -273,18 +297,20 @@ a.button
     justify-content: center;
     flex-direction: column;  
 }
+
 .hebergementMarseille
 {
     margin-left: 8%;
 }
+
 .chambre
 {
     width: 40%;
     height: 14rem;
     display: flex;
     justify-content: center;
-
 }
+
 .hebergementMarseilleImg
 {
     margin-top: 0.30rem;
@@ -294,15 +320,18 @@ a.button
     border-top-right-radius: 1.2rem;
     object-fit: cover;
 }
+
 #desc 
 {
     margin-left: 6%;
     margin-top: -1rem;
 }
+
 .hebergementMarseilleDesc
 {
     line-height: 0%;
 }
+
 .fa-star
 {
     color: #0065FC;
@@ -311,10 +340,12 @@ a.button
     padding-bottom: 0.5rem;
 
 }
+
 .couleurEtoile
 {
     color: rgb(217, 217, 217);
 }
+
 #afficherplus
 {
     margin-left: 7%;
@@ -333,6 +364,7 @@ a.button
     justify-items: center;
     justify-content: center;
 }
+
 #activiteMarseille
 {
     display: flex;
@@ -357,22 +389,22 @@ a.button
 {
     width: 93%;  
 }
+
 .activiteMarseilleBloc3
 {
     margin-top: 1.2rem;
 }
-.activiteMarseilleBloc2
-{
 
-}
 .activiteMarseilleBloc4
 {
     width: 93%;
 }
+
 .activiteMarseilleBloc6
 {
     margin-top: 1.3rem;
 }
+
 #paire1
 {
     width: 100%;
@@ -381,6 +413,7 @@ a.button
     flex-direction:row ;
     margin-left: -3%;
 }
+
 #paire2
 {
     width: 100%;
@@ -400,19 +433,23 @@ a.button
 {
     height: 15rem;
 }
+
 .activiteMarseilleImg2
 {
     height: 15rem;
 }
+
 .activiteMarseilleImg3
 {
     height: 15rem;
 }
+
 .activiteMarseilleImg4
 {
     height: 15rem;
     object-position: center;
 }
+
 .activiteMarseilleImg6
 {
     height: 14.5rem;
@@ -432,16 +469,19 @@ a.button
     flex-wrap:nowrap;
     flex-direction: row;
 }
+
 .a_propos , .nos_hebergement , .assistance
 {
     margin-left: 0%;
     line-height: 2rem;
 }
+
 .a_propos
 {
     margin-left: 3%;
     margin-right: 10%;
 }
+
 .nos_hebergement
 {
     margin-right: 13%;

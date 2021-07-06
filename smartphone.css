@@ -16,6 +16,7 @@
 {
     width: 100%;
 }
+
 #reservia
 {
     order: 1;
@@ -45,6 +46,7 @@
 {
     grid-column: 3 / 5;
 }
+
 #inscription
 {
     grid-column: 4;
@@ -61,6 +63,7 @@
     padding-bottom: 2rem;
     transition: 0.5s;
 }
+
 #menu2 :hover
 {
     border-bottom:#0065FC solid 2px;
@@ -87,41 +90,42 @@
     display: flex; 
     margin-left: 1rem;
 }
+
 #soustitre
 {
     display: flex; 
     margin-bottom: 3rem;
     margin-left: 1rem;
-
 }
+
 #outil_recherche
 {
     display: flex; 
     margin-left: 1rem;
 }
+
 #logoPosition
 {
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
 }
+
 #rechercheVille
 {
     min-width: 60%;
 }
+
 #logoPosition
 {
     min-width: 3.7rem;
+}
 
-}
-input[type=search]
-{
-  
-}
 .fa-search
 {
     visibility: initial;
     font-size: 1.2rem;
 }
+
 a.button
 {
     border-top-left-radius: 1.2rem;
@@ -131,20 +135,24 @@ a.button
     width: 3.8rem;
     min-width: 3.8rem;
 }
+
 #rechercher
 {
     visibility: hidden;
     position: absolute;
 }
+
 #filtre
 {
     display: block;
 }
+
 #filtreTitre
 {
     margin-top: 2rem;
     margin-left: 1rem;
 }
+
 #filtre_recherche
 {
     display: flex;
@@ -153,12 +161,14 @@ a.button
     align-content: flex-start;
     width: auto;
 }
+
 #filtre_1
 {
     max-width: min-content;
     margin-bottom: 0.5rem;
     margin-left: 1rem;
 }
+
 #filtre_2
 {
     margin: 0%;
@@ -167,6 +177,7 @@ a.button
     margin-right: 0.6rem;
     margin-left: 1rem;
 }
+
 #filtre_3
 {
     margin: 0%;
@@ -175,6 +186,7 @@ a.button
     margin-right: 1rem;
     margin-left: 1rem;
 }
+
 #filtre_4
 {
     margin: 0%;
@@ -183,11 +195,13 @@ a.button
     margin-right: 1rem;
     margin-left: 1rem;
 }
+
 #information
 {
     display: flex;
     align-items: baseline;
 }
+
 #info
 {
     width: 1.7rem;
@@ -195,19 +209,23 @@ a.button
     margin-bottom: 1.25em;
     margin-left: 1rem;
 }
+
 #infoText
 {
     width: 90%;
 }
+
 #section1
 {
     display: flex;
     flex-direction: column-reverse;
 }
+
 .fa-chart-line
 {
     margin-left: 28%;
 }  
+
 #aside
 {
     border-radius: 0rem;
@@ -215,6 +233,7 @@ a.button
     height: 41rem;
     margin-bottom: 2rem
 }
+
 #asideTitre
 {
     display: flex;
@@ -225,17 +244,20 @@ a.button
     margin-bottom: 5%;
     margin-top: 4%;
 }
+
 .fa-chart-line
 {
     font-size: 1.4rem;
     margin-right: 0.5rem
 }
+
 #hebergementPopulaire
 {  
     display:flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
 .chambrePop
 {
     width: 90%;
@@ -246,6 +268,7 @@ a.button
     box-shadow: 0px 0px 12px 0px #d2cccc;
     transition: 1s;
 }
+
 .chambrePop:hover
 {
     transform: scale(1.05);
@@ -268,10 +291,12 @@ a.button
 {
     margin-left: 47%;
 }
+
 .hebergementPopulaireTitre
 {
     margin-bottom: -0.5rem;
 }
+
 .hebergementPopulaireNote
 {
     line-height: 5rem;
@@ -285,10 +310,12 @@ a.button
     justify-content: center;
     flex-direction: column;  
 }
+
 .hebergementMarseille
 {
     margin-left: 8%;
 }
+
 .chambre
 {
     width: 93%;
@@ -297,26 +324,30 @@ a.button
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
+
 .hebergementMarseilleImg
 {
     width: 97%;
     height: 7.8rem;
     object-fit: cover;
 }
+
 #desc 
 {
     margin-left: 6%;
 }
+
 .hebergementMarseilleNom
 {
     height: 0.6rem;
 }
+
 .hebergementMarseilleNote
 {
     margin-top: -0.3rem;
 }
+
 .fa-star
 {
     color: #0065FC;
@@ -324,10 +355,12 @@ a.button
     font-size: 0.8rem;
     padding-bottom: 0.5rem;
 }
+
 .couleurEtoile
 {
     color: rgb(217, 217, 217);
 }
+
 #afficherplus
 {
     margin-left: 6%;
@@ -347,6 +380,7 @@ a.button
     justify-items: center;
     justify-content: center;
 }
+
 #activiteMarseille
 {
     margin-left: 5%; 
@@ -355,10 +389,12 @@ a.button
     flex-direction: column;
     justify-items: center;
 }
+
 #activitetitre
 {
     margin-left: 5%; 
 }
+
 .activiteMarseilleBloc1 , .activiteMarseilleBloc2 , .activiteMarseilleBloc3 , .activiteMarseilleBloc4 , .activiteMarseilleBloc5 , .activiteMarseilleBloc6
 {
     width: 95%;
@@ -367,10 +403,12 @@ a.button
     background-color: white;
     margin-left: 0%; 
 }
+
 .activiteMarseilleBloc2
 {
     margin-bottom: 2rem;
 }
+
 .activiteMarseilleBloc5
 {
     margin-bottom: -1rem;
@@ -384,6 +422,7 @@ a.button
     justify-content: center;
     flex-direction:column ;
 }
+
 #paire2
 {
     width: 100%;
@@ -403,14 +442,17 @@ a.button
 {
     transform: scale(1.90);
 }
+
 .activiteMarseilleImg4
 {
     object-position: center;
 }
+
 .activiteMarseilleDesc
 {
     margin-top: 0.5rem;
 }
+
 #footer
 {
     max-width: 1015px;
@@ -418,6 +460,7 @@ a.button
     margin-left: 0%;
     flex-direction: column;
 }
+
 .a_propos , .nos_hebergement , .assistance
 {
     
