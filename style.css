@@ -341,7 +341,7 @@ a.button :hover
 .hebergementMarseille
 {
     margin-left: 3%;
-    margin-top: 4%;
+    margin-top: 3.5%;
     font-size: 1.3rem;
 }
 
@@ -370,6 +370,10 @@ a.button :hover
     transition: 1s;
 }
 
+.chambre a
+{
+    width: 100%;
+}
 .chambre:hover
 {
     transform: scale(1.05);
@@ -382,7 +386,7 @@ a.button :hover
     margin-left: 0.35rem;
     margin-right: 0.29rem;
     margin-top: 0.30rem;
-    height: 7.5rem;
+    height: 7.8rem;
     width: 96%;
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
@@ -390,14 +394,13 @@ a.button :hover
 }
 
 .hebergementMarseilleNom
-{
+{   margin-top: 0.3rem;
     font-size: 1rem;
 }
 
 .desc 
 {
     margin-left: 6%;
-    margin-top: -5%;
 }
 
 .hebergementMarseilleDesc
@@ -489,17 +492,30 @@ a.button :hover
 .chambrePopDesc
 {
     margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hebergementPopulaireTitre
 {
-    margin-bottom: -0.5rem;
     font-size: 1rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.hebergementPopulaireDesc
+{
+margin-top: 0rem;
 }
 
 .hebergementPopulaireNote
 {
-    line-height: 4rem;
+    margin-top: 1.5rem;
+}
+.hebergementPopulaireNote1
+{
+    margin-top: 1.5rem;
 }
 
 #activiteMarseille
@@ -508,6 +524,11 @@ a.button :hover
     justify-content: space-between;
     width: 95%;
     margin-left: 2rem;
+}
+
+#activiteMarseille a
+{
+    width: 100%;
 }
 
 #activitetitre

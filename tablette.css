@@ -121,7 +121,6 @@
 #logoPosition
 {
     min-width: 3.7rem;
-
 }
 
 .fa-search
@@ -276,15 +275,19 @@ a.button
 
 .chambrePopDesc
 {
-    margin-left: 48%;
+    margin-left: 46%;
 }
 
 .hebergementPopulaireTitre
 {
-    margin-bottom: -0.5rem;
+    font-size: 0.96rem;
 }
 
 .hebergementPopulaireNote
+{
+    line-height: 6rem;
+}
+.hebergementPopulaireNote1
 {
     line-height: 8rem;
 }
@@ -327,6 +330,10 @@ a.button
     margin-top: -1rem;
 }
 
+.hebergementMarseilleNom
+{   
+    margin-top: 0.6rem;
+}
 .hebergementMarseilleDesc
 {
     line-height: 0%;
@@ -387,22 +394,32 @@ a.button
 
 .activiteMarseilleBloc1
 {
-    width: 93%;  
+    width: 94%;  
 }
 
+.activiteMarseilleBloc2
+{
+    width: 44%;
+}
 .activiteMarseilleBloc3
 {
     margin-top: 1.2rem;
+    width: 44%;
 }
 
 .activiteMarseilleBloc4
 {
-    width: 93%;
+    width: 94%;
+}
+.activiteMarseilleBloc5
+{
+    width: 44%;
 }
 
 .activiteMarseilleBloc6
 {
     margin-top: 1.3rem;
+    width: 44%;
 }
 
 #paire1
