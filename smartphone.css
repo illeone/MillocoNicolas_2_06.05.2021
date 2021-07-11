@@ -112,7 +112,7 @@
 
 #rechercheVille
 {
-    min-width: 60%;
+    min-width: 53%;
 }
 
 #logoPosition
@@ -122,8 +122,9 @@
 
 .fa-search
 {
-    visibility: initial;
+    visibility: visible;
     font-size: 1.2rem;
+    margin-right: 0rem;
 }
 
 a.button
